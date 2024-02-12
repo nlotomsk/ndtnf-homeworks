@@ -1,5 +1,5 @@
 import { BookModel } from './interface/Book'
-import  MyBook  from '../002-TypeScript/type/book'
+import  MyBook  from './type/book'
 
 class BooksRepository {
   async createBook (book: MyBook) {
